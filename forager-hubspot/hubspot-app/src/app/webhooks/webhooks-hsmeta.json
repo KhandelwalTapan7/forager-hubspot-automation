@@ -1,0 +1,16 @@
+{
+  "uid": "forager_enrichment_webhooks",
+  "type": "webhooks",
+  "config": {
+    "settings": {
+      "targetUrl": "https://YOUR-APP.up.railway.app/webhooks/hubspot",
+      "maxConcurrentRequests": 10
+    },
+    "subscriptions": {
+      "legacyCrmObjects": [
+        { "subscriptionType": "company.creation", "active": true },
+        { "subscriptionType": "contact.creation", "active": true }
+      ]
+    }
+  }
+}
