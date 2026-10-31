@@ -3,7 +3,7 @@
   "type": "webhooks",
   "config": {
     "settings": {
-      "targetUrl": "https://YOUR-APP.up.railway.app/webhooks/hubspot",
+      "targetUrl": "https://forager-hubspot-automation-9u0e.onrender.com/webhooks/hubspot",
       "maxConcurrentRequests": 10
     },
     "subscriptions": {
